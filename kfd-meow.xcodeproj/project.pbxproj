@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868BDAB12B2E14260017CB10 /* libmeow.m in Sources */ = {isa = PBXBuildFile; fileRef = 868BDAB02B2E14260017CB10 /* libmeow.m */; };
+		868BDABA2B2E1A890017CB10 /* meowfinder.c in Sources */ = {isa = PBXBuildFile; fileRef = 868BDAB92B2E1A890017CB10 /* meowfinder.c */; };
+		86A48A702B2B49CD005D1639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A6F2B2B49CD005D1639 /* AppDelegate.m */; };
+		86A48A732B2B49CD005D1639 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A722B2B49CD005D1639 /* SceneDelegate.m */; };
+		86A48A762B2B49CD005D1639 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A752B2B49CD005D1639 /* ViewController.m */; };
+		86A48A792B2B49CD005D1639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A48A772B2B49CD005D1639 /* Main.storyboard */; };
+		86A48A7B2B2B49CE005D1639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A48A7A2B2B49CE005D1639 /* Assets.xcassets */; };
+		86A48A812B2B49CE005D1639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A802B2B49CE005D1639 /* main.m */; };
+		86A48ABC2B2B4A0A005D1639 /* puaf.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A892B2B4A0A005D1639 /* puaf.c */; };
+		86A48ABD2B2B4A0A005D1639 /* perf.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A8A2B2B4A0A005D1639 /* perf.c */; };
+		86A48ABE2B2B4A0A005D1639 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A8B2B2B4A0A005D1639 /* info.c */; };
+		86A48AC02B2B4A0A005D1639 /* IOSurface_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A922B2B4A0A005D1639 /* IOSurface_shared.c */; };
+		86A48AC12B2B4A0A005D1639 /* kwrite_IOSurface.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48A952B2B4A0A005D1639 /* kwrite_IOSurface.c */; };
+		86A48AC22B2B4A0A005D1639 /* smith.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48AB62B2B4A0A005D1639 /* smith.c */; };
+		86A48AC32B2B4A0A005D1639 /* physpuppet.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48AB72B2B4A0A005D1639 /* physpuppet.c */; };
+		86A48AC42B2B4A0A005D1639 /* krkw.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48AB82B2B4A0A005D1639 /* krkw.c */; };
+		86A48AC52B2B4A0A005D1639 /* libkfd.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A48ABB2B2B4A0A005D1639 /* libkfd.m */; };
+		86A48AC82B2B4A89005D1639 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A48AC72B2B4A89005D1639 /* IOKit.framework */; };
+		86A48ACB2B2B5451005D1639 /* kread_sem_open.c in Sources */ = {isa = PBXBuildFile; fileRef = 86A48AC92B2B5451005D1639 /* kread_sem_open.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		868BDAB02B2E14260017CB10 /* libmeow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libmeow.m; sourceTree = "<group>"; };
+		868BDAB22B2E14410017CB10 /* libmeow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libmeow.h; sourceTree = "<group>"; };
+		868BDAB82B2E1A840017CB10 /* meowfinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meowfinder.h; sourceTree = "<group>"; };
+		868BDAB92B2E1A890017CB10 /* meowfinder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = meowfinder.c; sourceTree = "<group>"; };
+		86A48A6B2B2B49CD005D1639 /* kfd-meow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kfd-meow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A48A6E2B2B49CD005D1639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86A48A6F2B2B49CD005D1639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86A48A712B2B49CD005D1639 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		86A48A722B2B49CD005D1639 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		86A48A742B2B49CD005D1639 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86A48A752B2B49CD005D1639 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86A48A782B2B49CD005D1639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86A48A7A2B2B49CE005D1639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86A48A7F2B2B49CE005D1639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A48A802B2B49CE005D1639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86A48A872B2B4A0A005D1639 /* libkfd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libkfd.h; sourceTree = "<group>"; };
+		86A48A892B2B4A0A005D1639 /* puaf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = puaf.c; sourceTree = "<group>"; };
+		86A48A8A2B2B4A0A005D1639 /* perf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = perf.c; sourceTree = "<group>"; };
+		86A48A8B2B2B4A0A005D1639 /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = info.c; sourceTree = "<group>"; };
+		86A48A8C2B2B4A0A005D1639 /* krkw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krkw.h; sourceTree = "<group>"; };
+		86A48A912B2B4A0A005D1639 /* IOSurface_shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurface_shared.h; sourceTree = "<group>"; };
+		86A48A922B2B4A0A005D1639 /* IOSurface_shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOSurface_shared.c; sourceTree = "<group>"; };
+		86A48A942B2B4A0A005D1639 /* kwrite_IOSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kwrite_IOSurface.h; sourceTree = "<group>"; };
+		86A48A952B2B4A0A005D1639 /* kwrite_IOSurface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kwrite_IOSurface.c; sourceTree = "<group>"; };
+		86A48A982B2B4A0A005D1639 /* semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = semaphore.h; sourceTree = "<group>"; };
+		86A48A992B2B4A0A005D1639 /* ipc_port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipc_port.h; sourceTree = "<group>"; };
+		86A48A9A2B2B4A0A005D1639 /* fileglob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileglob.h; sourceTree = "<group>"; };
+		86A48A9B2B2B4A0A005D1639 /* miscellaneous_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miscellaneous_types.h; sourceTree = "<group>"; };
+		86A48A9C2B2B4A0A005D1639 /* ipc_space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipc_space.h; sourceTree = "<group>"; };
+		86A48A9D2B2B4A0A005D1639 /* vm_map_copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_map_copy.h; sourceTree = "<group>"; };
+		86A48A9E2B2B4A0A005D1639 /* pseminfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pseminfo.h; sourceTree = "<group>"; };
+		86A48A9F2B2B4A0A005D1639 /* vm_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_object.h; sourceTree = "<group>"; };
+		86A48AA02B2B4A0A005D1639 /* pmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pmap.h; sourceTree = "<group>"; };
+		86A48AA12B2B4A0A005D1639 /* fileops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileops.h; sourceTree = "<group>"; };
+		86A48AA22B2B4A0A005D1639 /* fileproc_guard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileproc_guard.h; sourceTree = "<group>"; };
+		86A48AA32B2B4A0A005D1639 /* ipc_entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipc_entry.h; sourceTree = "<group>"; };
+		86A48AA42B2B4A0A005D1639 /* vm_named_entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_named_entry.h; sourceTree = "<group>"; };
+		86A48AA52B2B4A0A005D1639 /* psemnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psemnode.h; sourceTree = "<group>"; };
+		86A48AA62B2B4A0A005D1639 /* vm_page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_page.h; sourceTree = "<group>"; };
+		86A48AA72B2B4A0A005D1639 /* vm_map_entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_map_entry.h; sourceTree = "<group>"; };
+		86A48AA82B2B4A0A005D1639 /* fileproc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileproc.h; sourceTree = "<group>"; };
+		86A48AAA2B2B4A0A005D1639 /* task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = task.h; sourceTree = "<group>"; };
+		86A48AAB2B2B4A0A005D1639 /* proc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc.h; sourceTree = "<group>"; };
+		86A48AAC2B2B4A0A005D1639 /* uthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uthread.h; sourceTree = "<group>"; };
+		86A48AAD2B2B4A0A005D1639 /* vm_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_map.h; sourceTree = "<group>"; };
+		86A48AAE2B2B4A0A005D1639 /* IOSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurface.h; sourceTree = "<group>"; };
+		86A48AAF2B2B4A0A005D1639 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		86A48AB02B2B4A0A005D1639 /* kqworkloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kqworkloop.h; sourceTree = "<group>"; };
+		86A48AB12B2B4A0A005D1639 /* puaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = puaf.h; sourceTree = "<group>"; };
+		86A48AB22B2B4A0A005D1639 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		86A48AB42B2B4A0A005D1639 /* smith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smith.h; sourceTree = "<group>"; };
+		86A48AB52B2B4A0A005D1639 /* physpuppet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = physpuppet.h; sourceTree = "<group>"; };
+		86A48AB62B2B4A0A005D1639 /* smith.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smith.c; sourceTree = "<group>"; };
+		86A48AB72B2B4A0A005D1639 /* physpuppet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = physpuppet.c; sourceTree = "<group>"; };
+		86A48AB82B2B4A0A005D1639 /* krkw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = krkw.c; sourceTree = "<group>"; };
+		86A48AB92B2B4A0A005D1639 /* perf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perf.h; sourceTree = "<group>"; };
+		86A48ABA2B2B4A0A005D1639 /* info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = info.h; sourceTree = "<group>"; };
+		86A48ABB2B2B4A0A005D1639 /* libkfd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = libkfd.m; sourceTree = "<group>"; };
+		86A48AC72B2B4A89005D1639 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		86A48AC92B2B5451005D1639 /* kread_sem_open.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kread_sem_open.c; sourceTree = "<group>"; };
+		86A48ACA2B2B5451005D1639 /* kread_sem_open.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kread_sem_open.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A48A682B2B49CD005D1639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A48AC82B2B4A89005D1639 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86A48A622B2B49CD005D1639 = {
+			isa = PBXGroup;
+			children = (
+				86A48A6D2B2B49CD005D1639 /* kfd-meow */,
+				86A48A6C2B2B49CD005D1639 /* Products */,
+				86A48AC62B2B4A89005D1639 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86A48A6C2B2B49CD005D1639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A48A6B2B2B49CD005D1639 /* kfd-meow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86A48A6D2B2B49CD005D1639 /* kfd-meow */ = {
+			isa = PBXGroup;
+			children = (
+				86A48A6E2B2B49CD005D1639 /* AppDelegate.h */,
+				86A48A6F2B2B49CD005D1639 /* AppDelegate.m */,
+				86A48A712B2B49CD005D1639 /* SceneDelegate.h */,
+				86A48A722B2B49CD005D1639 /* SceneDelegate.m */,
+				86A48A742B2B49CD005D1639 /* ViewController.h */,
+				86A48A752B2B49CD005D1639 /* ViewController.m */,
+				86A48A882B2B4A0A005D1639 /* libkfd */,
+				86A48A872B2B4A0A005D1639 /* libkfd.h */,
+				86A48ABB2B2B4A0A005D1639 /* libkfd.m */,
+				868BDAB22B2E14410017CB10 /* libmeow.h */,
+				868BDAB02B2E14260017CB10 /* libmeow.m */,
+				868BDAB82B2E1A840017CB10 /* meowfinder.h */,
+				868BDAB92B2E1A890017CB10 /* meowfinder.c */,
+				86A48A772B2B49CD005D1639 /* Main.storyboard */,
+				86A48A7A2B2B49CE005D1639 /* Assets.xcassets */,
+				86A48A7F2B2B49CE005D1639 /* Info.plist */,
+				86A48A802B2B49CE005D1639 /* main.m */,
+			);
+			path = "kfd-meow";
+			sourceTree = "<group>";
+		};
+		86A48A882B2B4A0A005D1639 /* libkfd */ = {
+			isa = PBXGroup;
+			children = (
+				86A48A962B2B4A0A005D1639 /* info */,
+				86A48A8D2B2B4A0A005D1639 /* krkw */,
+				86A48AB32B2B4A0A005D1639 /* puaf */,
+				86A48AB22B2B4A0A005D1639 /* common.h */,
+				86A48AB92B2B4A0A005D1639 /* perf.h */,
+				86A48A8A2B2B4A0A005D1639 /* perf.c */,
+				86A48ABA2B2B4A0A005D1639 /* info.h */,
+				86A48A8B2B2B4A0A005D1639 /* info.c */,
+				86A48A8C2B2B4A0A005D1639 /* krkw.h */,
+				86A48AB82B2B4A0A005D1639 /* krkw.c */,
+				86A48AB12B2B4A0A005D1639 /* puaf.h */,
+				86A48A892B2B4A0A005D1639 /* puaf.c */,
+			);
+			path = libkfd;
+			sourceTree = "<group>";
+		};
+		86A48A8D2B2B4A0A005D1639 /* krkw */ = {
+			isa = PBXGroup;
+			children = (
+				86A48A8E2B2B4A0A005D1639 /* kread */,
+				86A48A912B2B4A0A005D1639 /* IOSurface_shared.h */,
+				86A48A922B2B4A0A005D1639 /* IOSurface_shared.c */,
+				86A48A932B2B4A0A005D1639 /* kwrite */,
+			);
+			path = krkw;
+			sourceTree = "<group>";
+		};
+		86A48A8E2B2B4A0A005D1639 /* kread */ = {
+			isa = PBXGroup;
+			children = (
+				86A48ACA2B2B5451005D1639 /* kread_sem_open.h */,
+				86A48AC92B2B5451005D1639 /* kread_sem_open.c */,
+			);
+			path = kread;
+			sourceTree = "<group>";
+		};
+		86A48A932B2B4A0A005D1639 /* kwrite */ = {
+			isa = PBXGroup;
+			children = (
+				86A48A942B2B4A0A005D1639 /* kwrite_IOSurface.h */,
+				86A48A952B2B4A0A005D1639 /* kwrite_IOSurface.c */,
+			);
+			path = kwrite;
+			sourceTree = "<group>";
+		};
+		86A48A962B2B4A0A005D1639 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				86A48A972B2B4A0A005D1639 /* static_types */,
+				86A48AA92B2B4A0A005D1639 /* dynamic_types */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		86A48A972B2B4A0A005D1639 /* static_types */ = {
+			isa = PBXGroup;
+			children = (
+				86A48A982B2B4A0A005D1639 /* semaphore.h */,
+				86A48A992B2B4A0A005D1639 /* ipc_port.h */,
+				86A48A9A2B2B4A0A005D1639 /* fileglob.h */,
+				86A48A9B2B2B4A0A005D1639 /* miscellaneous_types.h */,
+				86A48A9C2B2B4A0A005D1639 /* ipc_space.h */,
+				86A48A9D2B2B4A0A005D1639 /* vm_map_copy.h */,
+				86A48A9E2B2B4A0A005D1639 /* pseminfo.h */,
+				86A48A9F2B2B4A0A005D1639 /* vm_object.h */,
+				86A48AA02B2B4A0A005D1639 /* pmap.h */,
+				86A48AA12B2B4A0A005D1639 /* fileops.h */,
+				86A48AA22B2B4A0A005D1639 /* fileproc_guard.h */,
+				86A48AA32B2B4A0A005D1639 /* ipc_entry.h */,
+				86A48AA42B2B4A0A005D1639 /* vm_named_entry.h */,
+				86A48AA52B2B4A0A005D1639 /* psemnode.h */,
+				86A48AA62B2B4A0A005D1639 /* vm_page.h */,
+				86A48AA72B2B4A0A005D1639 /* vm_map_entry.h */,
+				86A48AA82B2B4A0A005D1639 /* fileproc.h */,
+			);
+			path = static_types;
+			sourceTree = "<group>";
+		};
+		86A48AA92B2B4A0A005D1639 /* dynamic_types */ = {
+			isa = PBXGroup;
+			children = (
+				86A48AAA2B2B4A0A005D1639 /* task.h */,
+				86A48AAB2B2B4A0A005D1639 /* proc.h */,
+				86A48AAC2B2B4A0A005D1639 /* uthread.h */,
+				86A48AAD2B2B4A0A005D1639 /* vm_map.h */,
+				86A48AAE2B2B4A0A005D1639 /* IOSurface.h */,
+				86A48AAF2B2B4A0A005D1639 /* thread.h */,
+				86A48AB02B2B4A0A005D1639 /* kqworkloop.h */,
+			);
+			path = dynamic_types;
+			sourceTree = "<group>";
+		};
+		86A48AB32B2B4A0A005D1639 /* puaf */ = {
+			isa = PBXGroup;
+			children = (
+				86A48AB42B2B4A0A005D1639 /* smith.h */,
+				86A48AB62B2B4A0A005D1639 /* smith.c */,
+				86A48AB52B2B4A0A005D1639 /* physpuppet.h */,
+				86A48AB72B2B4A0A005D1639 /* physpuppet.c */,
+			);
+			path = puaf;
+			sourceTree = "<group>";
+		};
+		86A48AC62B2B4A89005D1639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86A48AC72B2B4A89005D1639 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86A48A6A2B2B49CD005D1639 /* kfd-meow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A48A842B2B49CE005D1639 /* Build configuration list for PBXNativeTarget "kfd-meow" */;
+			buildPhases = (
+				86A48A672B2B49CD005D1639 /* Sources */,
+				86A48A682B2B49CD005D1639 /* Frameworks */,
+				86A48A692B2B49CD005D1639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kfd-meow";
+			productName = "kfd-meow";
+			productReference = 86A48A6B2B2B49CD005D1639 /* kfd-meow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86A48A632B2B49CD005D1639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					86A48A6A2B2B49CD005D1639 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 86A48A662B2B49CD005D1639 /* Build configuration list for PBXProject "kfd-meow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86A48A622B2B49CD005D1639;
+			productRefGroup = 86A48A6C2B2B49CD005D1639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86A48A6A2B2B49CD005D1639 /* kfd-meow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A48A692B2B49CD005D1639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A48A7B2B2B49CE005D1639 /* Assets.xcassets in Resources */,
+				86A48A792B2B49CD005D1639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86A48A672B2B49CD005D1639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A48AC42B2B4A0A005D1639 /* krkw.c in Sources */,
+				86A48ABD2B2B4A0A005D1639 /* perf.c in Sources */,
+				86A48ACB2B2B5451005D1639 /* kread_sem_open.c in Sources */,
+				86A48ABC2B2B4A0A005D1639 /* puaf.c in Sources */,
+				86A48AC32B2B4A0A005D1639 /* physpuppet.c in Sources */,
+				86A48A762B2B49CD005D1639 /* ViewController.m in Sources */,
+				86A48AC22B2B4A0A005D1639 /* smith.c in Sources */,
+				86A48A702B2B49CD005D1639 /* AppDelegate.m in Sources */,
+				868BDABA2B2E1A890017CB10 /* meowfinder.c in Sources */,
+				868BDAB12B2E14260017CB10 /* libmeow.m in Sources */,
+				86A48AC12B2B4A0A005D1639 /* kwrite_IOSurface.c in Sources */,
+				86A48A812B2B49CE005D1639 /* main.m in Sources */,
+				86A48A732B2B49CD005D1639 /* SceneDelegate.m in Sources */,
+				86A48AC52B2B4A0A005D1639 /* libkfd.m in Sources */,
+				86A48ABE2B2B4A0A005D1639 /* info.c in Sources */,
+				86A48AC02B2B4A0A005D1639 /* IOSurface_shared.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86A48A772B2B49CD005D1639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A48A782B2B49CD005D1639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86A48A822B2B49CE005D1639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86A48A832B2B49CE005D1639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86A48A852B2B49CE005D1639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kfd-meow/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86A48A862B2B49CE005D1639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kfd-meow/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A48A662B2B49CD005D1639 /* Build configuration list for PBXProject "kfd-meow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A48A822B2B49CE005D1639 /* Debug */,
+				86A48A832B2B49CE005D1639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A48A842B2B49CE005D1639 /* Build configuration list for PBXNativeTarget "kfd-meow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A48A852B2B49CE005D1639 /* Debug */,
+				86A48A862B2B49CE005D1639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86A48A632B2B49CD005D1639 /* Project object */;
+}
